@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		3ED811022EFFC09100A99947 /* randomUserAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = randomUserAPIApp.app; path = "/Users/yarutov/Documents/Projects/randomUserAPIApp/build/Debug-iphoneos/randomUserAPIApp.app"; sourceTree = "<absolute>"; };
+		3ED811512EFFD56900A99947 /* randomUserAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = randomUserAPIApp.app; path = "/Users/yarutov/Documents/Projects/randomUserAPIApp/build/Debug-iphoneos/randomUserAPIApp.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -71,7 +71,7 @@
 			packageProductDependencies = (
 			);
 			productName = randomUserAPIApp;
-			productReference = 3ED811022EFFC09100A99947 /* randomUserAPIApp.app */;
+			productReference = 3ED811512EFFD56900A99947 /* randomUserAPIApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
