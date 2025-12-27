@@ -46,7 +46,12 @@ struct User {
         picture = Picture(pictureDetails: pictureDetails)
         
         let nat = userDetails["nat"] as? String ?? ""
-
+    }
+    
+    static func getRandomUsers(from value: Any) -> [User] {
+        guard let value = value as? [String: Any] else {return []}
+        guard let results = value["results"] as? [[String: Any]] else {return []}
+        return results.map{ User(userDetails: $0) }
     }
 }
 
