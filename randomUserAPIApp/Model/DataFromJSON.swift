@@ -55,19 +55,19 @@ struct User {
     }
 }
 
-struct Info {
-    let seed: String
-    let result: Int
-    let page: Int
-    let version: Double
-    
-    init(infoDetails: [String: Any]) {
-        let seed = infoDetails["seed"] as? String ?? ""
-        let result = infoDetails["results"] as? Int ?? 0
-        let page = infoDetails["page"] as? Int ?? 0
-        let version = infoDetails["version"] as? Double ?? 0.0
-    }
-}
+//struct Info {
+//    let seed: String
+//    let result: Int
+//    let page: Int
+//    let version: String
+//    
+//    init(infoDetails: [String: Any]) {
+//        let seed = infoDetails["seed"] as? String ?? ""
+//        let result = infoDetails["results"] as? Int ?? 0
+//        let page = infoDetails["page"] as? Int ?? 0
+//        let version = infoDetails["version"] as? String ?? ""
+//    }
+//}
 
 //  MARK: - FIRST NESTING (1)
 
