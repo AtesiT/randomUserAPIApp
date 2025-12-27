@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		3ED811022EFFC09100A99947 /* randomUserAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomUserAPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED811022EFFC09100A99947 /* randomUserAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = randomUserAPIApp.app; path = "/Users/yarutov/Documents/Projects/randomUserAPIApp/build/Debug-iphoneos/randomUserAPIApp.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3ED811142EFFC09300A99947 /* Exceptions for "randomUserAPIApp" folder in "randomUserAPIApp" target */ = {
+		3ED8114D2EFFCAB600A99947 /* Exceptions for "randomUserAPIApp" folder in "randomUserAPIApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				App/Info.plist,
@@ -21,10 +21,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3ED811042EFFC09100A99947 /* randomUserAPIApp */ = {
+		3ED811452EFFCAB600A99947 /* randomUserAPIApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				3ED811142EFFC09300A99947 /* Exceptions for "randomUserAPIApp" folder in "randomUserAPIApp" target */,
+				3ED8114D2EFFCAB600A99947 /* Exceptions for "randomUserAPIApp" folder in "randomUserAPIApp" target */,
 			);
 			path = randomUserAPIApp;
 			sourceTree = "<group>";
@@ -45,17 +45,8 @@
 		3ED810F92EFFC09100A99947 = {
 			isa = PBXGroup;
 			children = (
-				3ED811042EFFC09100A99947 /* randomUserAPIApp */,
-				3ED811032EFFC09100A99947 /* Products */,
+				3ED811452EFFCAB600A99947 /* randomUserAPIApp */,
 			);
-			sourceTree = "<group>";
-		};
-		3ED811032EFFC09100A99947 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3ED811022EFFC09100A99947 /* randomUserAPIApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,7 +65,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3ED811042EFFC09100A99947 /* randomUserAPIApp */,
+				3ED811452EFFCAB600A99947 /* randomUserAPIApp */,
 			);
 			name = randomUserAPIApp;
 			packageProductDependencies = (
@@ -108,7 +99,7 @@
 			mainGroup = 3ED810F92EFFC09100A99947;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3ED811032EFFC09100A99947 /* Products */;
+			productRefGroup = 3ED810F92EFFC09100A99947;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
